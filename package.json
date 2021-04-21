@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-theme",
+  "name": "obit-vite-plugin-theme",
   "version": "0.7.1",
   "description": "Vite plugin for dynamically changing the theme color of the interface",
   "main": "dist/index.js",

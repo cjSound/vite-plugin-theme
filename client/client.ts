@@ -75,7 +75,8 @@ function renderTheme() {
   const styleRenderQueueMap = getGlobalOptions('styleRenderQueueMap')!;
 
   const styleDom = getStyleDom(styleTagId);
-  let html = styleDom.innerHTML;
+  // let html = styleDom.innerHTML;
+  let html = '';
   for (let [id, css] of styleRenderQueueMap.entries()) {
     html += css;
     window[globalField].styleRenderQueueMap!.delete(id);
