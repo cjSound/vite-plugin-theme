@@ -59,7 +59,7 @@ export function injectClientPlugin(
     },
     async transform(code, id) {
       const nid = normalizePath(id);
-      const path = normalizePath('vite-plugin-theme/es/client.js');
+      const path = normalizePath('obit-vite-plugin-theme/es/client.js');
       const getMap = () => (needSourcemap ? this.getCombinedSourcemap() : null);
 
       if (

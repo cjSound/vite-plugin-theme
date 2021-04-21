@@ -1,10 +1,18 @@
+/*
+ * @Author: 曹捷
+ * @Date: 2021-04-21 15:09:13
+ * @LastEditors: 曹捷
+ * @LastEditTime: 2021-04-21 16:03:27
+ * @Description: fileContent
+ */
+
 import path from 'path';
 import { normalizePath } from 'vite';
 
 export const VITE_CLIENT_ENTRY = '/@vite/client';
 
 export const VITE_PLUGIN_THEME_CLIENT_ENTRY = normalizePath(
-  path.resolve(process.cwd(), 'node_modules/vite-plugin-theme/es/')
+  path.resolve(process.cwd(), 'node_modules/obit-vite-plugin-theme/es/')
 );
 
 export const CLIENT_PUBLIC_ABSOLUTE_PATH = normalizePath(

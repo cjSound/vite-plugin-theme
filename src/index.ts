@@ -28,7 +28,7 @@ import { createFileHash, formatCss } from './utils';
 import chalk from 'chalk';
 import { injectClientPlugin } from './injectClientPlugin';
 
-const debug = Debug('vite-plugin-theme');
+const debug = Debug('obit-vite-plugin-theme');
 
 export function viteThemePlugin(opt: ViteThemeOptions): Plugin[] {
   let isServer = false;
